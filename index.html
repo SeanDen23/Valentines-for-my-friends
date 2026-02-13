@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Valentine Ask</title>
+    <title>Valentine's Day for my friends</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<audio id="valentine-music" loop>
-    <source src="love-song.mp3" type="audio/mpeg">
-</audio>
+    <audio id="valentine-music" loop></audio>
+
     <div id="envelope-container">
         <img src="RGenvelope.png" alt="Envelope" id="envelope-img">
     </div>
@@ -22,9 +21,11 @@
                 <img id="letter-cat" src="RGcatflower.gif">
             </div>
 
+            <div id="lyrics-display"></div>
+
             <div class="buttons" id="letter-buttons">
-                <img src="RGyes.png" id="yes-trigger" class="yes-btn">
-                <img src="RGno.png" id="no-dodge" class="no-btn">
+                <img src="RGyes.png" class="yes-btn" id="yes-trigger">
+                <img src="RGno.png" class="no-btn" id="no-dodge">
             </div>
 
             <div id="final-text">
@@ -35,5 +36,4 @@
 
     <script src="script.js"></script>
 </body>
-
 </html>
