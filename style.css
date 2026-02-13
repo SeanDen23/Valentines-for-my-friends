@@ -4,9 +4,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
     background-image: url("Background.gif"); 
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     font-family: 'Pixelify Sans', sans-serif;
     overflow: hidden;
 }
@@ -44,12 +46,9 @@ body {
     box-shadow: 0 15px 50px rgba(0,0,0,0.4);
 }
 
-/* BIGGER CAT - No white background */
 #letter-cat {
-    width: 300px; /* Increased size */
-    height: auto;
-    mix-blend-mode: multiply; /* THIS REMOVES THE WHITE BG */
-    margin: auto 0; 
+    width: 380px; 
+    mix-blend-mode: multiply; 
 }
 
 h1 {
@@ -91,3 +90,4 @@ h1 {
     margin-top: 10px;
 
 }
+
