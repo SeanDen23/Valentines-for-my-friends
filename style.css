@@ -4,14 +4,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    background-image: url("Background.gif"); 
+    /* Use ./ and ensure the case matches your file list exactly */
+    background-image: url("./background.gif"); 
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     font-family: 'Pixelify Sans', sans-serif;
     overflow: hidden;
+    background-color: #ffdae0; /* Fallback color */
 }
-
 #letter-container {
     display: none; 
     position: fixed;
@@ -100,5 +101,6 @@ h1 {
     padding: 10px;
     border-top: 2px dashed #ff4d4d;
 }
+
 
 
